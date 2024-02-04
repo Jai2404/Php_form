@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family:sans-serif ;   
+}
+
+.form{
+height: 100%;
+width: 100%;
+background-image:url("image1.jpeg");
+background-position: center;
+background-size: cover;
+position: absolute;
+border: 2px black;
+
+
+}
+
+.form-box{
+height: 450px;
+width: 350px;
+position: relative;
+margin: 6% auto;
+background: rgb(255, 255, 255);
+padding:4px ;
+overflow: hidden;
+border-style: solid black;
+border-radius:20px;
+
+
+}
+
+.button-box{
+width:220px;
+margin:35px auto;
+position: relative;
+box-shadow: 0 0 20px 9px #ff61241f;
+border-radius: 30px;
+
+}
+
+.toggle-btn{
+
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    position:relative;
+}
+
+#btn{
+
+    top: 0;
+    left:0;
+    position: absolute;
+    width:110px;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group{
+
+    top: 90px;
+    position: absolute;
+    width: 200px;
+    transition: .5s;
+    align-self: center;
+ 
+}
+
+.input-field{
+
+    width: 100%;
+    padding: 8px 0;
+    margin:3px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+   
+}
+
+.submit-btn{
+        width: 85%;
+        height: 30px;
+        margin-top: 20px;
+        border: none;
+        background-color: rgb(255, 0, 0);
+        color: aliceblue;
+        font: size 15px;
+        cursor: pointer;
+        align-items: center;
+}
+
+.submit-btn:hover{
+            color:aliceblue;
+            background-color:rgb(7, 212, 195);
+
+
+}
+.sub-btn{
+    align-self: center;
+    text-align: center;
+}
+
+#login{
+    left:10px;
+}
+
+#register{
+
+    left: 450px;
+  
+    
+}
+
+.form-box{
+
+    height: 450px;
+    width: 350px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(255, 255, 255);
+    padding:5px ;
+    overflow: hidden;
+
+}
+
+.form-box1{
+     height: 290px;
+    width: 350px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(255, 255, 255);
+    padding:5px ;
+    overflow: hidden;
+    border: 1px solid black;
+text-align: center;
+border-radius : 20px;
+
+}
+
+.form-box2{
+    height: 180px;
+    width: 350px;
+    position: relative;
+    margin: 6% auto;
+    background: rgb(255, 255, 255);
+    padding:5px ;
+    overflow: hidden;
+    border: 1px solid black;
+text-align: center;
+    
+}
+
+
